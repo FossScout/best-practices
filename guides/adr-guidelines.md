@@ -14,7 +14,7 @@ Create `docs/adr/README.md` with:
 
 | ADR | Title | Status | Date |
 |---|------|--------|------|
-| [0001](0001-mvvm-clean-architecture.md) | MVVM + Clean Architecture with Feature Modules | Accepted | 2026-10-29 |
+| `0001` | Use an example decision | Accepted | YYYY-MM-DD |
 ```
 
 ## Workflow
