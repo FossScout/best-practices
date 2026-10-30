@@ -1,0 +1,26 @@
+# Global owners
+* @megoe
+
+# Core modules
+/core/ @megoe
+/shared/ @megoe
+
+# Feature modules
+/feature/ @megoe
+
+# App module
+/app/ @megoe
+
+# Build configuration
+/build.gradle.kts @megoe
+/settings.gradle.kts @megoe
+/gradle/ @megoe
+/gradle.properties @megoe
+/libs.versions.toml @megoe
+
+# CI/CD
+/.github/ @megoe
+
+# Documentation
+/docs/ @megoe
+*.md @megoe

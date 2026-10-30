@@ -1,0 +1,42 @@
+# Base .gitignore Template
+
+Copy to project root as `.gitignore` or merge with project-specific entries.
+
+```gitignore
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Build
+build/
+dist/
+out/
+target/
+
+# Dependencies
+node_modules/
+.gradle/
+
+# Env
+.env
+.env.local
+*.local
+
+# Logs
+*.log
+
+# Secrets
+*.jks
+*.keystore
+local.properties
+
+# Temp
+*.tmp
+*.swp
+*~
+```

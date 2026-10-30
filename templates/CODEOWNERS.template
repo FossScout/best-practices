@@ -1,0 +1,37 @@
+# CODEOWNERS Template (Reusable)
+
+Copy to `.github/CODEOWNERS` in projects and adjust paths/owners.
+
+```plaintext
+# Global owners
+* @team-leads
+
+# Core modules
+/core/ @core-team
+/shared/ @core-team
+
+# Feature modules
+/feature/ @feature-teams
+
+# App module
+/app/ @app-team
+
+# Build configuration
+/build.gradle.kts @build-team
+/settings.gradle.kts @build-team
+/gradle/ @build-team
+/libs.versions.toml @build-team
+/gradle.properties @build-team
+
+# CI/CD
+/.github/ @devops-team
+
+# Documentation
+/docs/ @docs-team
+*.md @docs-team
+```
+
+Notes:
+- Order matters - last matching pattern takes precedence
+- Use teams or individual usernames
+- Keep in sync with actual module structure
