@@ -39,3 +39,7 @@ git commit -m "chore(docs): update shared best practices"
 ```
 
 Keep project-specific files local. In particular, do not symlink `.gitignore`, issue templates, PR templates, or project release runbooks to this repository; GitHub and contributors expect those files to exist directly in the project.
+
+## License
+
+Released under the [MIT License](LICENSE).
